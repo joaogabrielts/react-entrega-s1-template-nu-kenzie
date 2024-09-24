@@ -1,0 +1,55 @@
+@import url("/src/styles/globalStyles.css");
+
+.form {
+    display: flex;
+    width: 20rem;
+    height: 20rem;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: var(--font-form);
+
+    div {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+
+        label {
+            font-family: var(--font-principal);
+            padding-bottom: 10px;
+        }
+
+        input {
+            border: none;
+            background-color: var(--gray-1);
+            padding: 10px 5px;
+            width: 18rem;
+            border-radius: 5px;
+        }
+
+        select {
+            border: none;
+            background-color: var(--gray-1);
+            padding: 10px 5px;
+            border-radius: 5px;
+
+        }
+
+        span {
+            font-weight: var(--body-weigth);
+            font-size: var(--body-size);
+            color: var(--gray-3);
+            margin-top: 10px;
+        }
+    }
+
+    button {
+        border: none;
+        padding: 10px 5px;
+        background-color: var(--color-primary);
+        color: rgb(255, 255, 255);
+        border-radius: 5px;
+        width: 19rem;
+        margin: auto;
+    }
+}

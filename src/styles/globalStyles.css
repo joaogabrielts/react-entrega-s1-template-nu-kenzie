@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("./reset.css");
+
+
+:root {
+    --color-primary: rgb(253, 55, 126);
+    --color-primary-2: #E34981;
+    --color-Secondary: #03B898;
+
+    --gray-1: rgb(248, 249, 250);
+    --gray-2: rgb(233, 236, 239);
+    --gray-3: rgb(134, 142, 150);
+    --gray-4: #212529;
+
+    --font-principal: "IBM Plex Sans", system-ui ;
+    --font-form:   "Inter", sans-serif;
+
+
+    --title-1-weigth: bold;
+    --title-1-size: 38px;
+
+
+    --title-2-weigth: bold;
+    --title-2-size: 22px;
+
+
+    --title-3-weigth: bold;
+    --title-3-size: 16px;
+
+    --title-4-weigth: bold;
+    --title-4-size: 12px;
+
+    --Headline-weigth:400px;
+    --Headline-size:16px;
+
+    --body-weigth:400px;
+    --body-size:12px
+
+}
